@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns ="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.example.com/flowers"
+        xmlns:tns="http://www.example.com/flowers"
+        elementFormDefault="qualified">
+
+    <element name="flowers">
+        <complexType>
+            <sequence>
+                <element ref="tns:flower"  minOccurs="2" maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+    
+    <complexType name="FlowerType">
+        <sequence>
+            <element name="name" type="string"/>
+            <element name="origin" type="string"/>
+            <element name="visual" type="tns:Visual"/>
+            <element name="growing-tips" type="tns:Growing"/>
+            <element name="multiplying" type="tns:Multiplying"/>
+            <element name="date-landing" type="date"/>
+        </sequence>
+        <attribute name="soil" type="tns:soil" use="optional" default="dirt"/>
+        <attribute name="id" type="tns:Id" use="required"/>
+    </complexType>
+
+    <complexType name="MonocotsFlower">
+        <complexContent>
+            <extension base="tns:FlowerType"/>
+        </complexContent>
+    </complexType>
+
+    <complexType name="DicotyledonsFlower">
+        <complexContent>
+            <extension base="tns:FlowerType"/>
+        </complexContent>
+    </complexType>
+
+    <complexType name="Visual">
+        <sequence>
+            <element name="leaf-color" type="string"/>
+            <element name="stem-color" type="string"/>
+            <element name="length" type="tns:Length"/>
+        </sequence>
+    </complexType>
+
+    <complexType name="Growing">
+        <sequence>
+            <element name="temperature" type="tns:Temperature"/>
+            <element name="lighting" type="boolean"/>
+            <element name="watering" type="int"/>
+        </sequence>
+    </complexType>
+
+    <simpleType name="Multiplying">
+        <restriction base="string">
+            <enumeration value="leaf"/>
+            <enumeration value="cutting"/>
+            <enumeration value="seed"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="Temperature">
+        <restriction base="integer">
+            <minInclusive value="-20"/>
+            <maxInclusive value="40"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="soil">
+        <restriction base="string">
+            <enumeration value="dirt"/>
+            <enumeration value="podzolic"/>
+            <enumeration value="sod-podzolic"/>
+        </restriction>
+    </simpleType>
+    
+    <simpleType name="Id">
+        <restriction base="ID">
+            <pattern value="[a-z][0-9]{1,3}"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="Length">
+        <restriction base="integer">
+            <minInclusive value="1"/>
+            <maxInclusive value="500"/>
+        </restriction>
+    </simpleType>
+    
+    <element name="flower" type="tns:FlowerType" abstract="true"/>
+    <element name="monocots-flower" type="tns:MonocotsFlower" substitutionGroup="tns:flower"/>
+    <element name="dicotyledons-flower" type="tns:DicotyledonsFlower" substitutionGroup="tns:flower"/>
+</schema>

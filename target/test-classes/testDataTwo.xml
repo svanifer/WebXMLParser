@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<candies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://www.epam.training.by/classes" xsi:schemaLocation="http://www.epam.training.by/classes Task4xsd.xsd">
+    <candy id="c1003" type="chocolate" filling="nuts">
+        <name>Alyonka</name>
+        <energy>40</energy>
+        <ingredients>
+            <water>40</water>
+            <sugar>70</sugar>
+            <fructose>0</fructose>
+            <chocolate-type>milk</chocolate-type>
+            <vanilla>40</vanilla>
+        </ingredients>
+        <value>
+            <proteins>20</proteins>
+            <fats>10</fats>
+            <carbohydrates>40</carbohydrates>
+        </value>
+        <production>Spartak</production>
+    </candy>
+</candies>

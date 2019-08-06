@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<candies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://www.epam.training.by/classes" xsi:schemaLocation="http://www.epam.training.by/classes Task4xsd.xsd">
+    <candy id="c1004" type="chocolate">
+        <name>Aeroflot</name>
+        <energy>40</energy>
+        <ingredients>
+            <water>45</water>
+            <sugar>80</sugar>
+            <fructose>0</fructose>
+            <chocolate-type>dark</chocolate-type>
+            <vanilla>15</vanilla>
+        </ingredients>
+        <value>
+            <proteins>20</proteins>
+            <fats>5</fats>
+            <carbohydrates>50</carbohydrates>
+        </value>
+        <production>Kommunarka</production>
+    </candy>
+</candies>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<candies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://www.epam.training.by/classes" xsi:schemaLocation="http://www.epam.training.by/classes Task4xsd.xsd">
+    <candy id="c1001" type="caramel">
+        <name>Barbaris</name>
+        <energy>10</energy>
+        <ingredients>
+            <water>10</water>
+            <sugar>50</sugar>
+            <fructose>0</fructose>
+            <vanilla>10</vanilla>
+        </ingredients>
+        <value>
+            <proteins>3</proteins>
+            <fats>0</fats>
+            <carbohydrates>15</carbohydrates>
+        </value>
+        <production>Roshen</production>
+    </candy>
+</candies>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flowers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.example.com/flowers"
+        xsi:schemaLocation="http://www.example.com/flowers orangery.xsd">
+
+
+   <monocots-flower id="a1">
+       <name>Chlorophytum</name>
+       <origin>South Africa</origin>
+       <visual>
+           <leaf-color>Green</leaf-color>
+           <stem-color>Green</stem-color>
+           <length>50</length>
+       </visual>
+       <growing-tips>
+           <temperature>26</temperature>
+           <lighting>true</lighting>
+           <watering>250</watering>
+       </growing-tips>
+       <multiplying>seed</multiplying>
+       <date-landing>2019-01-20</date-landing>
+   </monocots-flower>
+    
+    <monocots-flower id="a2">
+        <name>Snowdrop</name>
+        <origin>Europe</origin>
+        <visual>
+            <leaf-color>White</leaf-color>
+            <stem-color>Dark green</stem-color>
+            <length>15</length>
+        </visual>
+        <growing-tips>
+            <temperature>-8</temperature>
+            <lighting>false</lighting>
+            <watering>100</watering>
+        </growing-tips>
+        <multiplying>leaf</multiplying>
+        <date-landing>2018-11-24</date-landing>
+    </monocots-flower>
+
+    <monocots-flower id="a3" soil="sod-podzolic">
+        <name>Kermek</name>
+        <origin>Central Asia</origin>
+        <visual>
+            <leaf-color>Green</leaf-color>
+            <stem-color>Blue</stem-color>
+            <length>40</length>
+        </visual>
+        <growing-tips>
+            <temperature>18</temperature>
+            <lighting>true</lighting>
+            <watering>10</watering>
+        </growing-tips>
+        <multiplying>seed</multiplying>
+        <date-landing>2017-04-15</date-landing>
+    </monocots-flower>
+
+    <monocots-flower id="a4" soil="dirt">
+        <name>Abelia</name>
+        <origin>Japan</origin>
+        <visual>
+            <leaf-color>Pink</leaf-color>
+            <stem-color>Green</stem-color>
+            <length>150</length>
+        </visual>
+        <growing-tips>
+            <temperature>16</temperature>
+            <lighting>false</lighting>
+            <watering>70</watering>
+        </growing-tips>
+        <multiplying>leaf</multiplying>
+        <date-landing>2018-04-27</date-landing>
+    </monocots-flower>
+
+    <monocots-flower id="a5" soil="podzolic">
+        <name>Impatiens</name>
+        <origin>Africa</origin>
+        <visual>
+            <leaf-color>Pink</leaf-color>
+            <stem-color>Green</stem-color>
+            <length>30</length>
+        </visual>
+        <growing-tips>
+            <temperature>21</temperature>
+            <lighting>true</lighting>
+            <watering>170</watering>
+        </growing-tips>
+        <multiplying>cutting</multiplying>
+        <date-landing>2017-05-27</date-landing>
+    </monocots-flower>
+
+    <monocots-flower id="a6" soil="sod-podzolic">
+        <name>Vallota</name>
+        <origin>South Africa</origin>
+        <visual>
+            <leaf-color>Red</leaf-color>
+            <stem-color>Green</stem-color>
+            <length>60</length>
+        </visual>
+        <growing-tips>
+            <temperature>25</temperature>
+            <lighting>false</lighting>
+            <watering>90</watering>
+        </growing-tips>
+        <multiplying>seed</multiplying>
+        <date-landing>2016-12-31</date-landing>
+    </monocots-flower>
+
+    <monocots-flower id="a7" soil="dirt">
+        <name>Hedychium</name>
+        <origin>South Asia</origin>
+        <visual>
+            <leaf-color>Yellow</leaf-color>
+            <stem-color>Green</stem-color>
+            <length>45</length>
+        </visual>
+        <growing-tips>
+            <temperature>27</temperature>
+            <lighting>false</lighting>
+            <watering>105</watering>
+        </growing-tips>
+        <multiplying>leaf</multiplying>
+        <date-landing>2018-01-24</date-landing>
+    </monocots-flower>
+
+    <monocots-flower id="a8" soil="dirt">
+        <name>Jasminum</name>
+        <origin>China</origin>
+        <visual>
+            <leaf-color>White</leaf-color>
+            <stem-color>Green</stem-color>
+            <length>190</length>
+        </visual>
+        <growing-tips>
+            <temperature>19</temperature>
+            <lighting>true</lighting>
+            <watering>85</watering>
+        </growing-tips>
+        <multiplying>leaf</multiplying>
+        <date-landing>2016-04-14</date-landing>
+    </monocots-flower>
+
+    <dicotyledons-flower id="b1">
+        <name>Iris</name>
+        <origin>Holland</origin>
+        <visual>
+            <leaf-color>White</leaf-color>
+            <stem-color>Green</stem-color>
+            <length>40</length>
+        </visual>
+        <growing-tips>
+            <temperature>40</temperature>
+            <lighting>true</lighting>
+            <watering>145</watering>
+        </growing-tips>
+        <multiplying>seed</multiplying>
+        <date-landing>2017-10-07</date-landing>
+    </dicotyledons-flower>
+
+    <dicotyledons-flower id="b2" soil="podzolic">
+        <name>Gerbera</name>
+        <origin>Holland</origin>
+        <visual>
+            <leaf-color>Red</leaf-color>
+            <stem-color>Green</stem-color>
+            <length>60</length>
+        </visual>
+        <growing-tips>
+            <temperature>15</temperature>
+            <lighting>true</lighting>
+            <watering>185</watering>
+        </growing-tips>
+        <multiplying>leaf</multiplying>
+        <date-landing>2018-03-21</date-landing>
+    </dicotyledons-flower>
+
+    <dicotyledons-flower id="b3">
+        <name>Tulip</name>
+        <origin>Iran</origin>
+        <visual>
+            <leaf-color>Yellow</leaf-color>
+            <stem-color>Green</stem-color>
+            <length>30</length>
+        </visual>
+        <growing-tips>
+            <temperature>15</temperature>
+            <lighting>false</lighting>
+            <watering>145</watering>
+        </growing-tips>
+        <multiplying>leaf</multiplying>
+        <date-landing>2019-02-10</date-landing>
+    </dicotyledons-flower>
+
+    <dicotyledons-flower id="b4">
+        <name>Chrysanthemum</name>
+        <origin>Asia</origin>
+        <visual>
+            <leaf-color>White</leaf-color>
+            <stem-color>Green</stem-color>
+            <length>55</length>
+        </visual>
+        <growing-tips>
+            <temperature>40</temperature>
+            <lighting>true</lighting>
+            <watering>250</watering>
+        </growing-tips>
+        <multiplying>seed</multiplying>
+        <date-landing>2018-11-20</date-landing>
+    </dicotyledons-flower>
+
+    <dicotyledons-flower id="b5">
+        <name>Lily</name>
+        <origin>Greece</origin>
+        <visual>
+            <leaf-color>White</leaf-color>
+            <stem-color>Green</stem-color>
+            <length>90</length>
+        </visual>
+        <growing-tips>
+            <temperature>40</temperature>
+            <lighting>true</lighting>
+            <watering>75</watering>
+        </growing-tips>
+        <multiplying>cutting</multiplying>
+        <date-landing>2016-08-20</date-landing>
+    </dicotyledons-flower>
+
+    <dicotyledons-flower id="b6">
+        <name>Clove</name>
+        <origin>Germany</origin>
+        <visual>
+            <leaf-color>Red</leaf-color>
+            <stem-color>Green</stem-color>
+            <length>70</length>
+        </visual>
+        <growing-tips>
+            <temperature>25</temperature>
+            <lighting>true</lighting>
+            <watering>200</watering>
+        </growing-tips>
+        <multiplying>cutting</multiplying>
+        <date-landing>2017-05-10</date-landing>
+    </dicotyledons-flower>
+
+    <dicotyledons-flower id="b7">
+        <name>Peony</name>
+        <origin>Greece</origin>
+        <visual>
+            <leaf-color>White</leaf-color>
+            <stem-color>Green</stem-color>
+            <length>75</length>
+        </visual>
+        <growing-tips>
+            <temperature>-10</temperature>
+            <lighting>true</lighting>
+            <watering>180</watering>
+        </growing-tips>
+        <multiplying>cutting</multiplying>
+        <date-landing>2015-03-23</date-landing>
+    </dicotyledons-flower>
+
+    <dicotyledons-flower id="b8" soil="podzolic">
+        <name>Sunflower</name>
+        <origin>Central America</origin>
+        <visual>
+            <leaf-color>Yellow</leaf-color>
+            <stem-color>Green</stem-color>
+            <length>500</length>
+        </visual>
+        <growing-tips>
+            <temperature>20</temperature>
+            <lighting>true</lighting>
+            <watering>500</watering>
+        </growing-tips>
+        <multiplying>seed</multiplying>
+        <date-landing>2018-12-12</date-landing>
+    </dicotyledons-flower>
+
+</flowers>
